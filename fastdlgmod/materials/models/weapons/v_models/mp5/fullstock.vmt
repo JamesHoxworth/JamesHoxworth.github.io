@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\v_models\mp5\fullstock"
+	"$bumpmap" 	"models\weapons\v_models\mp5\fullstock_normal"
+ 	"$normalmapalphaenvmapmask" "0"
+	"$nocull" "1"
+}

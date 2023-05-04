@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Skyppy4/glass/glass04c"
+	"$surfaceprop" "Glass"
+	"$translucent" 1
+                "$envmap" "env_cubemap"
+}

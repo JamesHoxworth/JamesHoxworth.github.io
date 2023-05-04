@@ -1,0 +1,28 @@
+-- if (SERVER) then
+--
+--   hook.Add("TTTOrderedEquipment","TraitorfierOrder",function(ply,equipment,is_item) --only Traitor can buy
+--       if is_item == ttt_weapon_traitorfier then
+--         if ply:GetRole() != ROLE_TRAITOR then
+--           ply:StripWeapon("ttt_weapon_traitorfier")
+--           ply:SetCredits(ply:GetCredits()+1)
+--           SendFullStateUpdate()
+--         end
+--       end
+--   end)
+--
+--   hook.Add("DoPlayerDeath","TraitorfierCreateKnifeOnDeath",function(ply) --Drop prop knife on death
+--     local knife = ents.Create( "prop_physics" )
+--     if IsValid(ply:GetWeapon("ttt_weapon_traitorfier")) then
+--       if ( !IsValid( knife ) ) then return end
+--         knife:SetModel( "models/weapons/w_knife_t.mdl" )
+--         knife.CanPickup = false
+--         knife:SetCollisionGroup(COLLISION_GROUP_DEBRIS)
+--         knife:SetPos(ply:GetPos() + Vector(0, 0, 5))
+--         knife:Spawn()
+--     end
+--   end)
+--
+--   hook.Add("DoPlayerDeath","TraitorfierDeath",function(ply) --Strip Traitorfier on death
+--   IsValid(ply:StripWeapon("ttt_weapon_traitorfier")) end)
+--
+-- end
