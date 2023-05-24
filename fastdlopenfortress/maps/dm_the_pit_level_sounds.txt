@@ -1,0 +1,21 @@
+//By Deimos
+"DMMusic.IntoMercsCity"
+{
+	"Artist"		"Deimos"
+	"Name"			"Into Merc's Fortress"
+	"wave"			"#music/deathmatch/IntoMercsCity.ogg"
+	"channel"		"CHAN_STATIC"	
+
+        "soundlevel"  		"SNDLVL_NONE"	
+}
+
+//By Deimos
+"DMMusic.map09_waiting"
+{
+	"Artist"		"Deimos"
+	"Name"			"Into Merc's Fortress"
+	"wave"			"#music/deathmatch/map09_waiting.ogg"
+	"channel"		"CHAN_STATIC"	
+
+        "soundlevel"  		"SNDLVL_NONE"	
+}
